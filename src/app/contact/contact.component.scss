@@ -1,0 +1,49 @@
+:host{
+    display: block;
+    background-color: #20303f;
+    padding: 2rem 3rem;
+}
+ul {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+}
+.social-media {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-media i {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    font-size: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+}
+
+.contact-info {
+    height: 30px;
+    font-size: 1.2rem;
+    color: white;
+}
+/* pc */
+.container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    background-color: #20303f;
+}
+h1 {
+    grid-column: 1/3;
+}
+.contact-info{
+    width: 400px;
+    margin: 0 auto;
+ }
+.social-media{
+    cursor: pointer;
+ }

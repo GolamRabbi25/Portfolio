@@ -1,0 +1,40 @@
+:host{
+    display: block;
+    padding: 2rem 3rem;
+    background-color: darkslategrey;
+}
+section{
+    margin-top: 2rem;
+    text-align: center;
+    color:darkslategrey ;
+}
+section h2{
+    color:rosybrown;
+}
+section h3{
+    margin-top: 0.5rem;
+    color: white;
+}
+section h5{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto Condensed' sans-serif;
+}
+img{
+    width: 350px;
+}
+.icard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+/* pc */
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color:darkslategrey;
+    border: 0px;
+}
